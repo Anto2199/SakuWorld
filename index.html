@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Saku World</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b4d17547c1.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="arte artista fumetto personaggio immaginario sakura mondo fantasy vampiri cartoon">
+    <meta name="description" content="blog di un personaggio immaginario">
+    <meta name="autore" content="Antonia Cerone">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <base href="index.html">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CB8FZMTT35"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-CB8FZMTT35');
+    </script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Merriweather+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+  </head>
+  <body style="background-image: url('img/sfondo.jpg'); background-repeat: no-repeat;">
+    <header>
+      <nav id="nav_fixed">
+        <a href="index.html" target="_self"><img src="img/schizzo.png" alt="Saku World"></a>
+        <ul class="nav1">
+          <li><a class="nav1" href="documentazione.html" target="_blank">DOCUMENTAZIONE</a></li>
+          <li><a class="nav1" href="about.html" target="_blank">ABOUT</a></li>
+        </ul>
+      </nav>
+      <a href="index.html" target="_self"><img id="logo" src="Logo.png" alt="Logo Saku World" width="50%" height="50%"></a>
+    </header>
+    <section class="navigazione">
+      <nav id="nav_blog">
+        <ul>
+          <li><a id="nav_home" href="index.html" class="active" target="_self">HOME</a></li>
+          <li><a id="nav_delblog" href="blog.html" class="inactive" target="_self">BLOG</a></li>
+          <li><a id="nav_personaggi" href="personaggi.html" class="inactive" target="_self">PERSONAGGI</a></li>
+          <li><a id="nav_gallery" href="gallery.html" class="inactive" target="_self">GALLERY</a></li>
+          <li><a id="nav_contatti" href="contatti.html" class="inactive" target="_self">CONTATTI</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="main" style="background-color: white;">
+      <div class="bd-example primo_carosello">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/prova1.png" class="d-block w-100" min-height="100px" alt="..."> <!--TODO aggiungere alt-->
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/prova2.png" min-height="100px" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/prova3.png" min-height="50px" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide secondo_carosello" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/a.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/b.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/c.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-8">
+            <div class="card-body" style="padding-right: 0px;padding-bottom: 0px;">
+              <h1 class="titoli_diario">Benvenuti nel mio mondo!</h1>
+              <p class="diario primo">Ciao a tutti, io sono Saku e questo è il mio sito personale. Qui potete trovare tutto ciò che riguarda me, la mia vita e il mondo a cui appartengo!</p>
+              <p class="diario">Clicca <a class="link_testo" href="presentazione.html" target="_blank">qui</a> per saperne di più su di me! O scorri in basso per scoprire le mie rubriche principali, ti aspetto~</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <a href="presentazione.html" target="_blank"><img class="card-img" id="profilo" src="img/saku_profilo.png" alt="Immagine Saku" title="Saku"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="rubriche">
+      <div class="card-deck">
+        <div class="card">
+          <a href="diario.html"><img src="img/diario.png" class="card-img-top opaco" alt="Diario"></a>
+          <div class="card-body">
+            <h5 class="card-title">IL MIO DIARIO </h5>
+            <p class="card-text">Qui è dove appunto tutto ciò che accade intorno a me, le mie riflessioni, le mie paure. Proprio come in un vero diario! Fateci un salto se siete curiosi~</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Ultimo aggiornamento: 3 minuti fa</small>
+          </div>
+        </div>
+        <div class="card">
+          <a href="consigli.html"><img src="img/consigli.png" class="card-img-top opaco" alt="Consigli"></a>
+          <div class="card-body">
+            <h5 class="card-title">I MIEI CONSIGLI </h5>
+            <p class="card-text">Rubrica in cui condivido tutto ciò che mi piace, dalla musica ai fumetti, dal vestiario al cibo!</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Ultimo agiornamento: 58 minuti fa</small>
+          </div>
+        </div>
+        <div class="card"><img src="img/cronache.png" class="card-img-top disabilitato" alt="Cronache. Link attualmente disabilitato" title="link disabilitato">
+          <div class="card-body">
+            <h5 class="card-title" style="color:rgba(0,0,0,0.6)">CRONACHE DELL’UNDERWORLD</h5>
+            <p class="card-text">Volete saperne di più del mio mondo? Delle leggende che si narrano, delle storie che si tramandano? Bene! Questa è la sezione giusta</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">In arrivo!</small>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li class="footer" style="text-decoration: underline; color: rgba(0,0,0,0.6);">Copyright: Antonia Cerone</li>
+        <li class="footer"><a class="link_testo" href="about.html" target="_blank">About</a></li>
+        <li class="footer"><a class="link_testo" href="documentazione.html" target="_blank">Documentazione</a></li>
+        <li class="footer"><a class="link_testo" href="contatti.html" target="_blank">Contatti</a></li>
+      </ul>
+      <div>
+        <p class="social"><a class="icona_social" href="https://www.instagram.com/saku_world_/" target="_blank"><i class="fab fa-instagram-square"></i></a></p>
+        <p class="social"><a class="icona_social" href="https://www.facebook.com/Saku-world-108217291468932" target="_blank"><i class="fab fa-facebook-square"></i></a></p>
+        <p class="social"><a class="icona_social" href="https://twitter.com/world_saku" target="_blank"><i class="fab fa-twitter-square"></i></a></p>
+      </div>
+      <div>
+        <li class="footer" style="text-decoration: none; color: rgba(0,0,0,0.6);">E-mail: saku.world.sw@gmail.com</li></p>
+      </div>
+    </footer>
+  </body>
+</html>
