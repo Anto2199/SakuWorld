@@ -413,8 +413,8 @@ img.saku {
 
 @media only screen and (max-width: 850px){
   .modal-content {width: 100%;}
-  #gallery01 {min-width: 350px;}
-  #gallery02 {min-width: 350px;}
+  #gallery01 {min-width: 270px;}
+  #gallery02 {min-width: 270px;}
   }
 
 .img_gallery {
