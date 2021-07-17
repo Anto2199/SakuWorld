@@ -19,13 +19,13 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <base href="index.html">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JMKZ6VJR93"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GZSW8GKBY8"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-JMKZ6VJR93');
+      gtag('config', 'G-GZSW8GKBY8');
     </script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -57,7 +57,53 @@
     </section>
     <section class="main" style="background-color: white;">
       <h1 class="titoli_diario" style="font-size:3em; color:#ff3381;">GALLERY</h1>
-      <p class="non_diario">Ecco la galleria</p>
+      <p class="non_diario" style="margin-bottom: 4%;">Galleria con le immagini che trovate nel mio blog!</p>
+    </section>
+
+    <section class="sezione_immagini" style="background-color: rgba(255, 255, 255, 0.75); padding: 20px; margin: 20px;">
+      <img class="img_gallery" id="gallery01" src="img/img1.png" alt="Saku: immagine presentazione" width="30%">
+      <div id="modal1" class="modal">
+        <span class="close close1">&times;</span>
+        <img class="modal-content" id="imgSaku">
+        <div id="caption01"></div>
+      </div>
+      <script>
+      var modal = document.getElementById('modal1');
+      var img = document.getElementById('gallery01');
+      var modalImg = document.getElementById("imgSaku");
+      var captionText = document.getElementById("caption01");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+        }
+      var span = document.getElementsByClassName("close1")[0];
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+      </script>
+
+      <img class="img_gallery" id="gallery02" src="img/img2.png" alt="Taemin Advice" width="30%">
+      <div id="modal2" class="modal">
+        <span class="close close2">&times;</span>
+        <img class="modal-content" id="imgTaemin">
+        <div id="caption02"></div>
+      </div>
+      <script>
+      var modal = document.getElementById('modal2');
+      var img = document.getElementById('gallery02');
+      var modalImg = document.getElementById("imgTaemin");
+      var captionText = document.getElementById("caption02");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+        }
+      var span = document.getElementsByClassName("close2")[0];
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+      </script>
     </section>
     <footer>
       <ul>
@@ -72,7 +118,7 @@
         <p class="social"><a class="icona_social" href="https://twitter.com/world_saku" target="_blank"><i class="fab fa-twitter-square"></i></a></p>
       </div>
       <div>
-        <li class="footer" style="text-decoration: none; color: rgba(0,0,0,0.6);">E-mail: saku.world.sw@gmail.com</li></p>
+        <li class="footer" style="text-decoration: none; color: rgba(0,0,0,0.6); margin-bottom: 16px;">E-mail: saku.world.sw@gmail.com</li></p>
       </div>
     </footer>
   </body>
