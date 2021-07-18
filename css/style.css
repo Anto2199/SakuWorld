@@ -181,6 +181,16 @@ a.link_testo:active {
   text-decoration: underline;
   }
 
+a.link_titolo:link , a.link:visited {
+  color: #ff3381;
+  text-decoration: none;
+  }
+
+a.link_titolo:hover, a.link_titolo:active {
+  color: #ff3381;
+  text-decoration: underline;
+  }
+
 p.primo::first-letter {
   color: #ff3381;
   font-size: 1.5em;
@@ -419,4 +429,84 @@ img.saku {
 
 .img_gallery {
   margin: 10px;
+  }
+
+.leftcolumn {
+  float: left;
+  width: 73%;
+  margin-left:
+  }
+
+.rightcolumn {
+  float: right;
+  width: 25%;
+  background-color: white;
+  padding-left: 20px;
+  }
+
+.imgblog {
+  background-color: #FFCBEB;
+  width: 90%;
+  padding: 20px;
+  margin: 10px 0 10px 0;
+  }
+
+.contenuto_principale {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  }
+
+.menù_blog {
+  padding: 10px;
+  margin-top: 20px;
+  }
+
+.contenuti_blog:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+.rightcolumn {margin-top: 20px;}
+
+@media screen and (max-width: 850px) {
+  .leftcolumn, .rightcolumn {width: 100%;}
+  }
+
+@media screen and (max-width: 400px) {
+  .topnav a {float: none; width: 100%;}
+  }
+
+.sottotitolo_diario {
+  color: #91919B;
+}
+
+h2.titoli_diario {
+  font-family: 'Merriweather Sans', sans-serif;
+  }
+
+p.blog {
+  width: 80%;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  }
+
+ul.pagination {
+  padding: 15px;
+  padding-top: 10%;
+  }
+
+.item_attivo a {
+  color: #ff3381 !important;
+  }
+
+.item_inattivo a {
+  opacity: 0.3 !important;
+  }
+
+.item_inattivo a:hover {
+  background-color: white !important;
+  opacity: 0.3 !important;
   }
